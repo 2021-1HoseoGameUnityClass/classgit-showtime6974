@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 781
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -299,8 +299,8 @@ MonoBehaviour:
     y: 0
     width: 437
     height: 465
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -325,8 +325,8 @@ MonoBehaviour:
     y: 465
     width: 437
     height: 266
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -451,9 +451,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.18703908, y: -1.4071531, z: -42.51263}
+    m_Target: {x: 1.1465412, y: 1.6838758, z: -42.53177}
     speed: 2
-    m_Value: {x: 0.18703908, y: -1.4071531, z: -42.51263}
+    m_Value: {x: 1.1465412, y: 1.6838758, z: -42.53177}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -504,9 +504,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.270954
+    m_Target: 6.9437613
     speed: 2
-    m_Value: 7.270954
+    m_Value: 6.9437613
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -579,8 +579,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -436
     m_HBaseRangeMax: 436
-    m_VBaseRangeMin: -208.5
-    m_VBaseRangeMax: 208.5
+    m_VBaseRangeMin: -219
+    m_VBaseRangeMax: 219
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -597,11 +597,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 872
-      height: 417
+      height: 438
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 436, y: 208.5}
+    m_Translation: {x: 436, y: 219}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -609,9 +609,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -436
-      y: -208.5
+      y: -219
       width: 872
-      height: 417
+      height: 438
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 872, y: 438}
@@ -778,7 +778,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\jam82\Desktop\2DGame
+  m_LastProjectPath: C:\Users\jam82\Documents\GitHub\classgit-showtime6974
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
