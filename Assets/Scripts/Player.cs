@@ -86,4 +86,12 @@ transform.localScale = new UnityEngine.Vector3(1, 1, 1);
         Quaternion quaternion = new Quaternion(0, 0, 0, 0);
         Instantiate(bulletObj, bulletPos.transform.position, quaternion).GetComponent<Bullet>().InstantiateBullet(direction);
     }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.tag == "Enemy")
+        {
+            DataManager.instance.playerHP -= 1;
+        }
+    }
 }
