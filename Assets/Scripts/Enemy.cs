@@ -94,4 +94,19 @@ public class Enemy : MonoBehaviour
         }
         
     }
+
+    private void nCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.tag == "player")
+        {
+            DataManager.instance.playerHP -= 1;
+            if (DataManager.instance.playerHP < 0)
+            {
+                DataManager.instance.playerHP = 0;
+            }
+            UIManager.instance.PlayerHP();
+        }
+        
+    }
+
 }

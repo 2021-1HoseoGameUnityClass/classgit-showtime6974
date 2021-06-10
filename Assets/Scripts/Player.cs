@@ -81,6 +81,8 @@ transform.localScale = new UnityEngine.Vector3(1, 1, 1);
     }
     private void Fire()
     {
+        AudioClip audioClip = Resources.Load<AudioClip>("RangedAttack") as AudioClip;
+        GetComponent<AudioSource>().clip = audioClip;
         GetComponent<AudioSource>().Play();
         float direction = transform.localScale.x;
         Quaternion quaternion = new Quaternion(0, 0, 0, 0);
@@ -92,6 +94,7 @@ transform.localScale = new UnityEngine.Vector3(1, 1, 1);
         if (collision.collider.tag == "Enemy")
         {
             DataManager.instance.playerHP -= 1;
+            UIManager.instance.PlayerHP();
         }
     }
 }
